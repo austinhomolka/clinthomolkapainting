@@ -15576,7 +15576,7 @@ label {
   }
 }
 
-.totop::before {
+/* .totop::before {
   content: '';
   position: absolute;
   top: -50px;
@@ -15587,22 +15587,22 @@ label {
   opacity: 0;
   visibility: hidden;
   transition: all 0.5s ease-in-out;
-}
+} */
 
-.totop a {
+/* .totop a {
   color: #a6a182;
-}
+} */
 
 .totop.show {
   opacity: 1;
   visibility: visible;
 }
 
-.totop.show::before {
+/* .totop.show::before {
   top: -15px;
   opacity: 1;
   visibility: visible;
-}
+} */
 
 .about_image {
   position: relative;
@@ -20376,4 +20376,18 @@ body.bg-dark.bg-white .under-construction-page .under-construction-content .sear
 .slider {
   background-size: cover !important;
   background-position: center center !important;
+}
+
+.callbtn {
+  position: fixed;
+  right: 18px;
+  bottom: 18px;
+  width: 64px;
+  height: 64px;
+  z-index: 9999;
+}
+
+.callbtn img {
+  width: 100%;
+  height: auto;
 }
