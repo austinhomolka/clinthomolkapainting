@@ -20391,3 +20391,7 @@ body.bg-dark.bg-white .under-construction-page .under-construction-content .sear
   width: 100%;
   height: auto;
 }
+
+.running_projects {
+  overflow: hidden;
+  }
